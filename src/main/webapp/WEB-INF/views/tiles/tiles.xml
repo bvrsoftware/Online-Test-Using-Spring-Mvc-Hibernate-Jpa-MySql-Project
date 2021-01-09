@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+
+<tiles-definitions>  
+ 
+   <!-- Base Definition -->
+   <definition name="defaultLayout" 
+       template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/defaultHeader.jsp" />   
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/defaultFooter.jsp" />  
+   </definition>
+   <definition name="AdminLogin" extends="defaultLayout">  
+       <put-attribute name="title" value="AdminLogin" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/AdminLogin.jsp" />  
+   </definition>
+   <definition name="upload-image" extends="defaultLayout">  
+       <put-attribute name="title" value="Photo Upload" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/photoUpdate.jsp" />  
+   </definition>
+   <definition name="passwordChange" extends="defaultLayout">  
+       <put-attribute name="title" value="passwordChange" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/passwordChange.jsp" />  
+   </definition>
+   <definition name="CollegeLogin" extends="defaultLayout">  
+       <put-attribute name="title" value="College Login" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/CollegeLogin.jsp" />  
+   </definition>
+   <definition name="StudentLogin" extends="defaultLayout">  
+       <put-attribute name="title" value="Student Login" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/StudentLogin.jsp" />  
+   </definition> 
+    <definition name="AdminHome" extends="defaultLayout">  
+       <put-attribute name="title" value="Admin Home" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/AdminHome.jsp" />  
+   </definition>
+   <definition name="CollegeHome" extends="defaultLayout">  
+       <put-attribute name="title" value="College Home" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/CollegeHome.jsp" />  
+   </definition>
+   <definition name="StudentHome" extends="defaultLayout">  
+       <put-attribute name="title" value="Student Home" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/StudentHome.jsp" />  
+   </definition> 
+   <definition name="Mcq25studentResult" extends="defaultLayout">  
+       <put-attribute name="title" value="Student Home" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Mcq25studentResult.jsp" />  
+   </definition>   
+   <definition name="AdminSaveOrUpdate" extends="defaultLayout">  
+       <put-attribute name="title" value="AdminSaveOrUpdate" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/AdminSaveOrUpdate.jsp" />  
+   </definition>  
+   
+    <definition name="CollegeSaveOrUpdate" extends="defaultLayout">  
+       <put-attribute name="title" value="CollegeSaveOrUpdate" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/CollegeSaveOrUpdate.jsp" />  
+   </definition>  
+    <definition name="StudentSaveOrUpdate" extends="defaultLayout">  
+       <put-attribute name="title" value="StudentSaveOrUpdate" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/StudentSaveOrUpdate.jsp" />  
+   </definition>  
+   <definition name="Admins" extends="defaultLayout">  
+       <put-attribute name="title" value="Admins" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Admins.jsp" />  
+   </definition>  
+   <definition name="Colleges" extends="defaultLayout">  
+       <put-attribute name="title" value="Colleges" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Colleges.jsp"/>  
+   </definition>   
+   <definition name="CollegeStudents" extends="defaultLayout">  
+       <put-attribute name="title" value="College Students" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/CollegeStudents.jsp" />  
+   </definition>  
+   <definition name="Students" extends="defaultLayout">  
+       <put-attribute name="title" value="Students" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Students.jsp" />  
+   </definition>
+  
+    <definition name="Mcq25-Add-Question" extends="defaultLayout">  
+       <put-attribute name="title" value="Mcq25 Add Question" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Mcq25-Add-Question.jsp" />  
+   </definition>
+   <definition name="Mcq25-table-Question" extends="defaultLayout">  
+       <put-attribute name="title" value="Mcq25 Table Question" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Mcq25-table-Question.jsp" />  
+   </definition>
+   <definition name="Mcq25-test-Question" extends="defaultLayout">  
+       <put-attribute name="title" value="Mcq25 Test Question" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Mcq25-test-Question.jsp" />  
+   </definition>
+   <definition name="Mcq25-Update-Answer" extends="defaultLayout">  
+       <put-attribute name="title" value="Mcq25 Update Answer" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Mcq25-Update-Answer.jsp" />  
+   </definition>
+   <definition name="Mcq25-CollegeTable-Question" extends="defaultLayout">  
+       <put-attribute name="title" value="Mcq25 Table Answer" />  
+       <put-attribute name="body" value="/WEB-INF/views/jsp/Mcq25-CollegeTable-Question.jsp" />  
+   </definition>
+   
+</tiles-definitions>

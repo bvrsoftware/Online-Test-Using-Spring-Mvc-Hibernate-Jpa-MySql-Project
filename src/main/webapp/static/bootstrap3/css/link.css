@@ -1,0 +1,102 @@
+.heading{
+width: 100%;
+color: #000040;
+padding: 5px;
+margin-bottom: 1px;
+}
+.explaination{
+	width: 100%;
+    color: #3c3c3c;
+    padding: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+.importent-point{
+    color: #000000;
+    font-size: 16px;
+
+}
+.mysidebar {
+	
+    background: black;
+
+}
+.codeblock {
+    width: 100%;
+    margin-bottom: 8px;
+    font-family: verdana;
+    padding-left: 0;
+    border-left: 4px solid #800040;
+    -moz-box-shadow: 6px 3px 8px #d4d4d4;
+    -webkit-box-shadow: 6px 3px 8px #d4d4d4;
+    box-shadow: 6px 3px 8px #d4d4d4;
+}
+.class
+{
+	color: blue;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.function,.method{
+	
+	color: blue;
+	padding-left: 25px;
+	padding-right: 5px;
+}
+.class-close
+{
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.function-close{
+	
+	padding-left: 25px;
+	padding-right: 5px;
+}
+.code{
+	
+	padding-left: 35px;
+	padding-right: 5px;
+}
+.text-blue{
+	color: blue;
+}
+.comment{
+	color: green;
+	padding: 10;
+}
+.Question-No{
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	padding: 15,15,15,15;
+}
+.option-answer{
+	width: 100%;
+	font-size: 15px;
+	padding: 15px,15px,15px,15px;
+	margin-top: 30px;
+}
+.xml{
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    width:100%;
+    height:100%;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+.java{
+	width: 100%;
+	resize: inherit;
+	height: 100%;
+	padding: 15px;
+	}
